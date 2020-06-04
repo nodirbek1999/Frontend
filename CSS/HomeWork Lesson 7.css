@@ -1,0 +1,102 @@
+body {
+    background-color: #DCEAE7;
+    margin: 0 110px;
+    font-family: sans-serif;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 25%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 30%;
+    height: 440px;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    position: relative;
+}
+
+.card h6 {
+    margin-top: 0;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.card h1 {
+    margin-bottom: 0;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.card p {
+    margin-bottom: 50px;
+}
+
+.card button {
+    width: 150px;
+    height: 30px;
+    border: 2.5px solid #20ec0d;
+    color: #20ec0d;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    border-top: 7px solid #20ec0d;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card:hover button {
+    background-color: #20ec0d;
+    color: #fff;
+}
+
+.card:hover .add {
+    width: 40%;
+    text-align: left;
+    margin: 0;
+    padding: 3px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    background-color: #20ec0d;
+    color: #fff;
+    background-color: ;
+    position: absolute;
+    top: 15px;
+    right: -15px;
+    font-size: 12px;
+    font-family: sans-serif;
+    transition-duration: 0.5s;
+}
+
+.add {
+    color: transparent;
+}
+
+.card:hover .border {
+    border: 11px solid #20ec0d;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    transition-duration: 0.5s;
+    position: absolute;
+    top: 22px;
+    right: -11px;
+    transform: rotate(45deg);
+}

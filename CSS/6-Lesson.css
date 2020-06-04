@@ -1,0 +1,135 @@
+.link:hover {
+    color: red;
+    font-size: 30px;
+    
+}
+
+.link:focus {
+    color: green;
+    font-size: 40px;
+}
+
+.link:active {
+    color: yellow;
+    font-size: 50px;
+}
+
+.link:visited {   oldin kirganligini bildirib turish un
+    color: aqua;
+   
+}
+
+.text:first-line {
+    font-size: 20px;
+    font-family: fantasy;
+    color: coral;
+}
+
+.text:first-letter {
+    font-size: 30px;
+    font-family: monospace;
+    color: blue;
+    float: left; Chap tomondan tekislab boradi
+    
+}
+
+.text:nth-child(){
+    
+}
+
+.text::before{
+    content: ''
+}
+
+
+.text::after{
+    content: 'This is a after'
+}
+
+
+
+
+.box {
+    width: 250px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 100px auto;
+    position: relative;
+}
+
+.box::before{
+    content: '';
+    border: 20px solid aqua;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;   
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 20px);
+    
+        
+}
+
+.card{
+    width: 300px;
+    background-color: aqua;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+}
+
+
+.nimadir {
+    width: 100%;
+    background-color: coral;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: -110px;
+    transition-duration: 0.5s;
+    
+    
+}
+
+.card:hover .nimadir {
+    bottom: 0;
+    transition
+}
+
+.card-img {
+    width: 300px;
+    position: relative;
+}
+.card-img img {
+    width: 100%;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+/*    background-color: rgba(5, 5, 5, 0.5);*/
+    font-weight: bold;
+     background-color: red;
+    opacity: 0.5;
+    
+}
+.layer:hover {
+/*    background-color: transparent;*/
+/*    transition-duration: 0.5s;*/
+/*
+    background-color: red;
+    opacity: 0.5;
+*/
+    
+}

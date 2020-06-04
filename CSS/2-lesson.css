@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    background:#555;
+    padding: 30px;
+    display: inline;
+    
+    
+   /* 1.Inline
+    2.Inrernal
+    3.External*/
+}
+
+h3 {
+    font-size: 30px;  /*razmerlari*/
+    font-family:sans-serif; /*shirft turlari*/
+    font-weight: lighter;/* ingichka-qalin qiladi*/
+}
+
+h4{
+    color: red;
+    text-align: center;
+    
+}
+
+ul { 
+    
+}
+
+p {
+   
+}
+
+.p2 { text-align: justify;
+    
+    
+}
+body {
+    background-color: beige;
+}
+
+#box-1 {
+    background-color: aqua;
+    
+}
+
+.box-2 {
+    color: aquamarine;
+    text-align: center;
+    background-color: brown;
+    padding: 30px;
+    font-size: 30px;
+}

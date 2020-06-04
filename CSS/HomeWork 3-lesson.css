@@ -1,0 +1,99 @@
+ .card, .card1, .card2, .card3  {
+    
+    margin: 0;
+   display: inline-block;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 100px  40px;
+     padding-top: 50px;
+     box-sizing: content-box;
+     width: 250px;
+     
+    
+}
+
+.card1, .card3 {
+    background-color: darkgray;
+
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: darkgray;
+}
+
+.card1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+     background-color: white;
+    
+}
+
+.card2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: darkgray;
+}
+
+.card3 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: white;
+}
+body {
+    
+    
+    margin: 0;
+    display: inline-block;
+    
+}
+.card h1 p, .card1 h1, p, .card2 h1, p, .card3 h1, p {
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+
+.box-1 {
+    height: 40px;
+    background-color: darkblue;
+    margin: 0;
+    height: 100px;
+    
+    
+    
+
+    
+}
+.box-1 h1 {
+    margin: 0;
+    padding-left: 80px;
+    display: inline-block;
+    
+    
+    
+}
+
+ul li{
+    display: inline;
+    text-align: right;
+    
+    
+    
+}
+ul {
+    display: inline;
+    
+}

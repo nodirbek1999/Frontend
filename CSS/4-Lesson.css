@@ -1,0 +1,81 @@
+.box-1 {
+   width: 30%;
+    background-color: aqua;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+/*    display: inline-block;*/
+/*    height: 650px;*/
+   
+}
+
+.box-1 img {
+    width: 100%;
+    
+}
+.ota {
+    display: flex;
+    width: 80%;
+    height: 2000px;
+    margin: 0 auto;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+/*    display: flex;  bu ham display:inline-blok singari yonma-yon qilib beradigan bitta framwork hisoblanadi.
+    Justify-content --- FLEX b-n birga ishlatiladigan fremwork bo'lib u tenglikni taminlaydi oralarini ochib beradi/
+    Flex-direction--- vertikal yoki gorizantal joylashishini belglab beradi
+    Flex-wrap--- Sig'maganini pasdan chiqarib beradi 
+    Align-items: vertikaliga joylashishini belgilab beradi.
+    Float-- display inline ning bir turi bo'lib u qilgan ishni qiladi.
+    '*/
+}
+
+
+.ota-float {
+    width: 80%;
+    margin: 100px auto;
+    
+    
+}
+
+.ota-float .box-1 {
+    float: left;
+   
+}
+
+.clear-float {
+    clear: both;
+}
+
+.navbar {
+    
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+    
+
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a {
+     color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 22px;
+}
